@@ -1,0 +1,34 @@
+body {
+    background-image: url("/img/gg.png"); 
+	font-family: "SFUIDisplayLight", sans-serif;
+	font-size: 20px;
+	min-width: 320px;
+	position: relative;
+    color: #777;
+}
+h1 {
+    font-family: "SFUIDisplayLight", sans-serif;
+	font-size: 30px;
+	min-width: 320px;
+	position: relative;       
+}
+
+.navbar-default {
+    font-family: "SFUIDisplayLight", sans-serif;
+	font-size: 20px;
+	position: relative; 
+    
+}
+
+.navbar-brand{
+    font-family: "AemstelLineOutside", sans-serif;
+    font-size: 40px;
+    position: relative;
+}
+
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #777; /* Цвет линии для остальных браузеров */
+    background-color: #777; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+}

@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "SFUIDisplayLight";
+	src: url("../fonts/SFUIDisplayLight/SFUIDisplayLight.eot");
+	src: url("../fonts/SFUIDisplayLight/SFUIDisplayLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/SFUIDisplayLight/SFUIDisplayLight.woff") format("woff"),
+			 url("../fonts/SFUIDisplayLight/SFUIDisplayLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "RobotoLight";
+	src: url("../fonts/RobotoLight/RobotoLight.eot");
+	src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+			 url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "AemstelLineOutside";
+	src: url("../fonts/AemstelLineOutside/AemstelLineOutside.eot");
+	src: url("../fonts/AemstelLineOutside/AemstelLineOutside.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/AemstelLineOutside/AemstelLineOutside.woff") format("woff"),
+             url("../fonts/AemstelLineOutside/AemstelLineOutside.woff2") format("woff2"),
+			 url("../fonts/AemstelLineOutside/AemstelLineOutside.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
