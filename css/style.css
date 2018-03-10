@@ -1,10 +1,11 @@
 body {
-    background-image: url("/img/gg.png"); 
+    
+    background-color: #fff;
 	font-family: "SFUIDisplayLight", sans-serif;
 	font-size: 20px;
 	min-width: 320px;
 	position: relative;
-    color: #777;
+    color: #000;
 }
 h1 {
     font-family: "SFUIDisplayLight", sans-serif;
@@ -13,22 +14,24 @@ h1 {
 	position: relative;       
 }
 
-.navbar-default {
-    font-family: "SFUIDisplayLight", sans-serif;
-	font-size: 20px;
-	position: relative; 
-    
-}
-
-.navbar-brand{
-    font-family: "AemstelLineOutside", sans-serif;
-    font-size: 40px;
-    position: relative;
-}
-
 hr {
     border: none; /* Убираем границу для браузера Firefox */
-    color: #777; /* Цвет линии для остальных браузеров */
-    background-color: #777; /* Цвет линии для браузера Firefox и Opera */
+    color: #343a40; /* Цвет линии для остальных браузеров */
+    background-color: #343a40; /* Цвет линии для браузера Firefox и Opera */
     height: 2px; /* Толщина линии */
+}
+
+p>a{
+    color: #000;
+}
+
+a:hover {
+    color: tomato;
+    text-decoration: none;
+}
+
+footer {
+    padding: 40px;
+    padding-top: 40px;
+    background-color: #e0e0e3;
 }
