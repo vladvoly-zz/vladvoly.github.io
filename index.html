@@ -24,12 +24,12 @@
 	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->		
 </head>
-    <body>   
+    <body>    
     <!--Верхний бар - навигация-->
     
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg py-0 py-md-0">
         <div class="container"> 
-        <a class="navbar-brand animated fadeInLeftBig" href="#">BYTE</a>
+        <a class="navbar-brand animated fadeInLeftBig" href="index.html">BYTE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +55,7 @@
             <h1><img src="/img/bylogoyt.jpg" alt="50x50" class="rounded-circle" style="width: 50px; height: 50px;"> Опубликовано новое видео!
             <a href="https://www.youtube.com/watch?v=cAQk_zVh_Bw">Перейти к просмотру</a></h1>
             <hr/>
-            <h1><img src="/img/blog.png" alt="50x50" class="img-circle" style="width: 50px; height: 50px;"> Новая статья в блоге!
+            <h1><img src="/img/blog.png" alt="50x50" class="img-circle" style="width: 50px; height: 50px;"> Новая запись в блоге!
             <a href="/blog.html">Перейти в блог</a></h1>
             <hr/>
             <h1><img src="/img/alie.png" alt="50x50" class="rounded-circle" style="width: 50px; height: 50px;"> Новая подборка товаров с Aliexpress!
@@ -88,18 +88,18 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-3 column">
-                <h6 class="text-uppercase">Stay Posted</h6>
+                <h6 class="text-uppercase">Оставайся в курсе</h6>
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email">
+                        <input type="text" class="form-control" title="No spam, we promise!" placeholder="Ваш email">
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button" disabled>Подписаться на обновления</button>
                     </div>
                 </form>
             </div>
             <div class="col-xs-12 col-sm-3 text-xs-right">
-                <h6 class="text-uppercase">Follow</h6>
+                <h6 class="text-uppercase">Подписаться</h6>
                 <script src="https://apis.google.com/js/platform.js"></script>
 
 <div class="g-ytsubscribe" data-channelid="UCXFgfMGSGSHciCJDPNKFJHA" data-layout="full" data-count="default"></div>
@@ -116,7 +116,8 @@
  
         
     <!--файлы JavaScript-->
-    <script src="libs/jquery/jquery-3.3.1.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="libs/jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/buttonup.js"> </script>
     </body>
 </html>
