@@ -26,7 +26,6 @@ p>a{
 }
 
 a:hover {
-    color: tomato;
     text-decoration: none;
 }
 
@@ -45,13 +44,27 @@ p {
   bottom: 2em;
   right: 2em;
   text-decoration: none;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
   font-size: 12px;
   padding: 1em;
   display: none;
 }
 
-.go-top:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+.cool-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
 }
